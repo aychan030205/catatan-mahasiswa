@@ -160,6 +160,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.2"
+  idb_shim:
+    dependency: transitive
+    description:
+      name: idb_shim
+      sha256: "923c92ef88569de4ec1b257b6a6d10360dc3407179f61d0c73329701a7d7b12e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.11.1"
   jni:
     dependency: transitive
     description:
@@ -352,6 +360,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+  sembast:
+    dependency: "direct main"
+    description:
+      name: sembast
+      sha256: "05da81104e6d4a1ecbeb9aa92062231620d360c8bd9303b82495842c4d92632b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.9.0"
+  sembast_web:
+    dependency: "direct main"
+    description:
+      name: sembast_web
+      sha256: "99dad5c3610c7b9559add7f394ab272ccb76a595a28dc94bc40d05c45481c7bf"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.6+1"
   shared_preferences:
     dependency: "direct main"
     description:
@@ -422,7 +446,7 @@ packages:
     source: hosted
     version: "1.10.2"
   sqflite_common:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: sqflite_common
       sha256: b80e94ff0d551d5f1f8c7d14348d29b576cca3ae30f6e195a7c380552c32b1e0
